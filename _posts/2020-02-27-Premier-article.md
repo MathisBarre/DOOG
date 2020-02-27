@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Mon premier article
 date: 2020-02-27
 ---
