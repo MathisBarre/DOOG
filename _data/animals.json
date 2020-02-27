@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Charles",
+    "weight": 84,
+    "age": 25,
+    "photoUrl": "http://dummyimage.com/137x205.png/ff4444/ffffff",
+    "gender": "Male",
+    "healthtatus": "very good",
+    "type": "dog",
+    "race": "rottweiler"
+  },
+  {
+    "name": "Cazzie",
+    "weight": 2,
+    "age": 25,
+    "photoUrl": "http://dummyimage.com/143x186.png/dddddd/000000",
+    "gender": "Male",
+    "healthtatus": "very bad",
+    "type": "dog",
+    "race": "shiba"
+  },
+  {
+    "name": "Mirabella",
+    "weight": 39,
+    "age": 16,
+    "photoUrl": "http://dummyimage.com/244x184.png/cc0000/ffffff",
+    "gender": "Female",
+    "healthtatus": "good",
+    "type": "dog",
+    "race": "shiba"
+  },
+  {
+    "name": "Alanson",
+    "weight": 82,
+    "age": 5,
+    "photoUrl": "http://dummyimage.com/203x219.png/dddddd/000000",
+    "gender": "Male",
+    "healthtatus": "bad",
+    "type": "dog",
+    "race": "husky"
+  },
+  {
+    "name": "Horton",
+    "weight": 2,
+    "age": 9,
+    "photoUrl": "http://dummyimage.com/183x201.png/dddddd/000000",
+    "gender": "Male",
+    "healthtatus": "good",
+    "type": "dog",
+    "race": "bulldog"
+  },
+  {
+    "name": "Consuelo",
+    "weight": 32,
+    "age": 29,
+    "photoUrl": "http://dummyimage.com/181x134.png/ff4444/ffffff",
+    "gender": "Female",
+    "healthtatus": "good",
+    "type": "dog",
+    "race": "beagle"
+  },
+  {
+    "name": "Goober",
+    "weight": 46,
+    "age": 2,
+    "photoUrl": "http://dummyimage.com/159x120.png/cc0000/ffffff",
+    "gender": "Male",
+    "healthtatus": "very bad",
+    "type": "dog",
+    "race": "beagle"
+  },
+  {
+    "name": "Cynthea",
+    "weight": 82,
+    "age": 5,
+    "photoUrl": "http://dummyimage.com/132x223.png/ff4444/ffffff",
+    "gender": "Female",
+    "healthtatus": "bad",
+    "type": "dog",
+    "race": "rottweiler"
+  },
+  {
+    "name": "Batsheva",
+    "weight": 92,
+    "age": 6,
+    "photoUrl": "http://dummyimage.com/187x200.png/dddddd/000000",
+    "gender": "Female",
+    "healthtatus": "very good",
+    "type": "dog",
+    "race": "berger allemand"
+  },
+  {
+    "name": "Sadella",
+    "weight": 68,
+    "age": 30,
+    "photoUrl": "http://dummyimage.com/173x193.png/dddddd/000000",
+    "gender": "Female",
+    "healthtatus": "very bad",
+    "type": "dog",
+    "race": "rottweiler"
+  },
+  {
+    "name": "Bondon",
+    "weight": 72,
+    "age": 14,
+    "photoUrl": "http://dummyimage.com/172x208.png/dddddd/000000",
+    "gender": "Male",
+    "healthtatus": "good",
+    "type": "dog",
+    "race": "husky"
+  },
+  {
+    "name": "Hedvige",
+    "weight": 30,
+    "age": 22,
+    "photoUrl": "http://dummyimage.com/245x174.png/ff4444/ffffff",
+    "gender": "Female",
+    "healthtatus": "bad",
+    "type": "dog",
+    "race": "caniche"
+  },
+  {
+    "name": "Wyn",
+    "weight": 59,
+    "age": 2,
+    "photoUrl": "http://dummyimage.com/106x200.png/5fa2dd/ffffff",
+    "gender": "Male",
+    "healthtatus": "quite good",
+    "type": "dog",
+    "race": "bulldog"
+  },
+  {
+    "name": "Lezley",
+    "weight": 50,
+    "age": 27,
+    "photoUrl": "http://dummyimage.com/203x178.png/5fa2dd/ffffff",
+    "gender": "Male",
+    "healthtatus": "very bad",
+    "type": "dog",
+    "race": null
+  },
+  {
+    "name": "Putnam",
+    "weight": 5,
+    "age": 13,
+    "photoUrl": "http://dummyimage.com/172x217.png/cc0000/ffffff",
+    "gender": "Male",
+    "healthtatus": "good",
+    "type": "dog",
+    "race": "golen retriever"
+  },
+  {
+    "name": "Eadmund",
+    "weight": 76,
+    "age": 6,
+    "photoUrl": "http://dummyimage.com/187x149.png/cc0000/ffffff",
+    "gender": "Male",
+    "healthtatus": null,
+    "type": "cat",
+    "race": "ragdoll"
+  },
+  {
+    "name": "Issiah",
+    "weight": 53,
+    "age": 30,
+    "photoUrl": "http://dummyimage.com/102x232.png/5fa2dd/ffffff",
+    "gender": "Male",
+    "healthtatus": "very good",
+    "type": "cat",
+    "race": "chartreux"
+  },
+  {
+    "name": "Dale",
+    "weight": 51,
+    "age": 17,
+    "photoUrl": "http://dummyimage.com/200x214.png/ff4444/ffffff",
+    "gender": "Female",
+    "healthtatus": "quite good",
+    "type": "cat",
+    "race": "persan"
+  },
+  {
+    "name": "Hernando",
+    "weight": 17,
+    "age": 30,
+    "photoUrl": "http://dummyimage.com/212x143.png/ff4444/ffffff",
+    "gender": "Male",
+    "healthtatus": "quite good",
+    "type": "cat",
+    "race": "chartreux"
+  },
+  {
+    "name": "Sunshine",
+    "weight": 29,
+    "age": 26,
+    "photoUrl": "http://dummyimage.com/121x192.png/dddddd/000000",
+    "gender": "Female",
+    "healthtatus": "very good",
+    "type": "cat",
+    "race": "bleu russe"
+  },
+  {
+    "name": "Chloris",
+    "weight": 94,
+    "age": 9,
+    "photoUrl": "http://dummyimage.com/152x139.png/5fa2dd/ffffff",
+    "gender": "Female",
+    "healthtatus": "very bad",
+    "type": "cat",
+    "race": "ragdoll"
+  },
+  {
+    "name": "Emanuel",
+    "weight": 66,
+    "age": 11,
+    "photoUrl": "http://dummyimage.com/131x165.png/cc0000/ffffff",
+    "gender": "Male",
+    "healthtatus": "bad",
+    "type": "cat",
+    "race": "bleu russe"
+  },
+  {
+    "name": "Farris",
+    "weight": null,
+    "age": null,
+    "photoUrl": null,
+    "gender": null,
+    "healthtatus": null,
+    "type": "cat",
+    "race": "munchkin"
+  },
+  {
+    "name": "Marena",
+    "weight": 47,
+    "age": 16,
+    "photoUrl": "http://dummyimage.com/244x130.png/5fa2dd/ffffff",
+    "gender": "Female",
+    "healthtatus": "bad",
+    "type": "cat",
+    "race": "sphynx"
+  },
+  {
+    "name": "Dorthea",
+    "weight": 62,
+    "age": 22,
+    "photoUrl": "http://dummyimage.com/230x186.png/5fa2dd/ffffff",
+    "gender": "Female",
+    "healthtatus": null,
+    "type": "cat",
+    "race": "persan"
+  },
+  {
+    "name": "Alyosha",
+    "weight": 20,
+    "age": 6,
+    "photoUrl": "http://dummyimage.com/150x157.png/dddddd/000000",
+    "gender": "Male",
+    "healthtatus": "very bad",
+    "type": "cat",
+    "race": "siamois"
+  },
+  {
+    "name": "Cammy",
+    "weight": 89,
+    "age": 12,
+    "photoUrl": "http://dummyimage.com/156x239.png/ff4444/ffffff",
+    "gender": "Male",
+    "healthtatus": "good",
+    "type": "cat",
+    "race": "chartreux"
+  },
+  {
+    "name": "Ruddy",
+    "weight": 16,
+    "age": 19,
+    "photoUrl": "http://dummyimage.com/104x117.png/dddddd/000000",
+    "gender": "Male",
+    "healthtatus": "bad",
+    "type": "cat",
+    "race": "sphynx"
+  },
+  {
+    "name": "Katheryn",
+    "weight": 27,
+    "age": 23,
+    "photoUrl": "http://dummyimage.com/133x148.png/ff4444/ffffff",
+    "gender": "Female",
+    "healthtatus": "good",
+    "type": "cat",
+    "race": "munchkin"
+  },
+  {
+    "name": "Randi",
+    "weight": 78,
+    "age": 13,
+    "photoUrl": "http://dummyimage.com/165x123.png/cc0000/ffffff",
+    "gender": "Female",
+    "healthtatus": null,
+    "type": "cat",
+    "race": "ragdoll"
+  }
+]
