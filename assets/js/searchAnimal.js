@@ -3,7 +3,7 @@ const searchedRace = url.searchParams.get("race");
 const searchedType = url.searchParams.get("type");
 
 var data
-fetch("/data/animals.json")
+fetch("/_data/animals.json")
   .then((response) =>  {
     return response.json()
   })

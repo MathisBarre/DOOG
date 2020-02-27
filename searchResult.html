@@ -1,54 +1,47 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOOG - Résultat de la recherche</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="header__wrapper">
-            <img class="header__logo" src="./public/img/Logo.png"
-                alt="logo hexagone sur fond vert avec l'inscription DO plus les lettre O et G (DOOG) en dehors du hexagone">
-            <nav class="header__navbar">
-                <a class="header__links" href="index.html">Accueil</a>
-                <a class="header__links" href="nous.html">Nous</a>
-                <a class="header__links" href="actualités.html">Actualités</a>
-                <a class="header__links" href="adoption.html">Adoption</a>
-                <a class="header__links" href="contact.html">Contact</a>
-            </nav>
-            <a href="#" class="btn btn--big">
-                <img class="btn__img" src="./public/img/profilIcon.png" alt="icon personnage">
-                Se connecter
-            </a>
-        </div>
-    </header>
-    <form class="adoptionSearch--searchResult adoptionSearch">
-        <h2 class="adoptionSearch__title">Recherchez bien,<br>Trouvez le bon !</h2>
-        <div class="adoptionSearch__choiceGroup">
-            <label class="adoptionSearch__label" for="type">Type ?</label>
-            <select class="adoptionSearch__select" name="type" id="type">
-                <option class="adoptionSearch__option" value="dog">Chien</option>
-                <option class="adoptionSearch__option" value="cat">Chat</option>
-                <option class="adoptionSearch__option" value="chicken">Poule</option>
-                <option class="adoptionSearch__option" value="goat">Chèvre</option>
-            </select>
-        </div>
-        <div class="adoptionSearch__choiceGroup">
-            <label class="adoptionSearch__label" for="race">Race ?</label>
-            <select class="adoptionSearch__select" name="race" id="race">
-                <option class="adoptionSearch__option" value="labrador">Labrador</option>
-                <option class="adoptionSearch__option" value="1">1</option>
-                <option class="adoptionSearch__option" value="2">2</option>
-                <option class="adoptionSearch__option" value="3">3</option>
-            </select>
-        </div>
-        <button class="adoptionSearch__btn btn btn--primary">Rechercher</button>
-    </form>
-    <section class="searchResult__wrapper">
+---
+layout: default
+title: "DOOG - Résultat de la recherche"
+---
+<header class="header">
+    <div class="header__wrapper">
+        <img class="header__logo" src="./public/img/Logo.png"
+            alt="logo hexagone sur fond vert avec l'inscription DO plus les lettre O et G (DOOG) en dehors du hexagone">
+        <nav class="header__navbar">
+            <a class="header__links" href="index.html">Accueil</a>
+            <a class="header__links" href="nous.html">Nous</a>
+            <a class="header__links" href="actualités.html">Actualités</a>
+            <a class="header__links" href="adoption.html">Adoption</a>
+            <a class="header__links" href="contact.html">Contact</a>
+        </nav>
+        <a href="#" class="btn btn--big">
+            <img class="btn__img" src="./public/img/profilIcon.png" alt="icon personnage">
+            Se connecter
+        </a>
+    </div>
+</header>
+<form class="adoptionSearch--searchResult adoptionSearch">
+    <h2 class="adoptionSearch__title">Recherchez bien,<br>Trouvez le bon !</h2>
+    <div class="adoptionSearch__choiceGroup">
+        <label class="adoptionSearch__label" for="type">Type ?</label>
+        <select class="adoptionSearch__select" name="type" id="type">
+            <option class="adoptionSearch__option" value="dog">Chien</option>
+            <option class="adoptionSearch__option" value="cat">Chat</option>
+            <option class="adoptionSearch__option" value="chicken">Poule</option>
+            <option class="adoptionSearch__option" value="goat">Chèvre</option>
+        </select>
+    </div>
+    <div class="adoptionSearch__choiceGroup">
+        <label class="adoptionSearch__label" for="race">Race ?</label>
+        <select class="adoptionSearch__select" name="race" id="race">
+            <option class="adoptionSearch__option" value="labrador">Labrador</option>
+            <option class="adoptionSearch__option" value="1">1</option>
+            <option class="adoptionSearch__option" value="2">2</option>
+            <option class="adoptionSearch__option" value="3">3</option>
+        </select>
+    </div>
+    <button class="adoptionSearch__btn btn btn--primary">Rechercher</button>
+</form>
+<section class="searchResult__wrapper">
 
-    </section>
-    <script src="/public/js/searchAnimal.js"></script>
-</body>
-</html>
+</section>
+<script src="/public/js/searchAnimal.js"></script>
