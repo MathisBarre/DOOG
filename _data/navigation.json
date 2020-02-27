@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Accueil",
+    "url": "index.html"
+  },
+  {
+    "title": "Nous",
+    "url": "nous.html"
+  },
+  {
+    "title": "Blog",
+    "url": "blog.html"
+  },
+  {
+    "title": "Adopter",
+    "url": "adopter.html"
+  },
+  {
+    "title": "Contact",
+    "url": "contact.html"
+  }
+]
