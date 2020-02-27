@@ -1,8 +1,8 @@
-#url: "http://grezilleloisirs.org"
+baseurl: "http://doog.netlify.com"
 title: "Doog" # the name of your site, e.g. ACME Corp.
 favicon_url: 
 description: Doog, site pour refuge animalié
-
+environment: production
 collections:
   articles:
   
