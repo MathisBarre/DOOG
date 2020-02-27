@@ -1,7 +1,7 @@
 #url: "http://grezilleloisirs.org"
 title: "Doog" # the name of your site, e.g. ACME Corp.
-favicon_url: http://grezilleloisirs.org/assets/img/logo_grezille_loisir.jpg
-description: Doog, refuge animalié
+favicon_url: 
+description: Doog, site pour refuge animalié
 
 collections:
   articles:
