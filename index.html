@@ -21,7 +21,7 @@ title: "DOOG"
         </div>
     </div>
 </section>
-<form class="adoptionSearch">
+<form class="adoptionSearch" action="adoption.html" method="GET">
     <h2 class="adoptionSearch__title">Vous souhaitez adopter ?<br>C'est par ici !</h2>
     <div class="adoptionSearch__choiceGroup">
         <label class="adoptionSearch__label" for="type">Type ?</label>
@@ -47,43 +47,13 @@ title: "DOOG"
     <div class="newsOverview__wrapper">
         <h2 class="newsOverview__title">Actualités</h2>
         <div class="newsOverview__cards">
+            {% for post in site.posts %}
             <article class="newsOverview__card">
                 <div class="newsOverview__img"></div>
-                <h3 class="newsOverview__cardTitle">La spa a sauvé vinght-cinq animaux de conditions de détentions
-                    déplorables</h3>
-                <button class="newsOverview__cardBtn btn--primary">Lire l'article</button>
+                <h3 class="newsOverview__cardTitle">{{ post.title }}</h3>
+                <a href="{{ post.url }}" class="newsOverview__cardBtn btn--primary">Lire l'article</a>
             </article>
-            <article class="newsOverview__card">
-                <div class="newsOverview__img"></div>
-                <h3 class="newsOverview__cardTitle">Lorem ipsum dolor sit amet consectetur.</h3>
-                <button class="newsOverview__cardBtn btn--primary">Lire l'article</button>
-            </article>
-            <article class="newsOverview__card">
-                <div class="newsOverview__img"></div>
-                <h3 class="newsOverview__cardTitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-                <button class="newsOverview__cardBtn btn--primary">Lire l'article</button>
-            </article>
-            <article class="newsOverview__card">
-                <div class="newsOverview__img"></div>
-                <h3 class="newsOverview__cardTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                    animi.</h3>
-                <button class="newsOverview__cardBtn btn--primary">Lire l'article</button>
-            </article>
-            <article class="newsOverview__card">
-                <div class="newsOverview__img"></div>
-                <h3 class="newsOverview__cardTitle">Lorem, ipsum dolor.</h3>
-                <button class="newsOverview__cardBtn btn--primary">Lire l'article</button>
-            </article>
-            <article class="newsOverview__card">
-                <div class="newsOverview__img"></div>
-                <h3 class="newsOverview__cardTitle">Lorem ipsum dolor, sit amet consectetur adipisicing.</h3>
-                <button class="newsOverview__cardBtn btn--primary">Lire l'article</button>
-            </article>
-            <article class="newsOverview__card">
-                <div class="newsOverview__img"></div>
-                <h3 class="newsOverview__cardTitle">Lorem ipsum dolor sit amet.</h3>
-                <button class="newsOverview__cardBtn btn--primary">Lire l'article</button>
-            </article>
+            {% endfor %}
         </div>
     </div>
 </section>
